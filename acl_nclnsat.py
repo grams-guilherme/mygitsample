@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 #nbc4, Acl, Zcl,    u                          = np.loadtxt('fort.16', unpack=True)
 nbc1, Acl_ncl, Icl_ncl,  ncl_ncl,   ng_ncl,  ye_ncl,  u_ncl, I_unif_ncl, acncl_ncl    = np.loadtxt('var_ncl.dat', unpack=True)
 #nbc2, Acl_nsat, Icl_nsat, ncl_nsat, ng_nsat, ye_nsat, u_nsat, I_unif_sat, acncl_nsat, shit  = np.loadtxt('pesado_var.16', unpack=True)
-nbc2, Acl_nsat, Icl_nsat, ncl_nsat, ng_nsat, ye_nsat, u_nsat, I_unif_sat, acncl_nsat, shit  = np.loadtxt('var_eps10menos3.16', unpack=True)
+nbc2, Acl_nnsat, Icl_nsat, ncl_nsat, ng_nsat, ye_nsat, u_nsat, I_unif_sat, acncl_nsat, shit  = np.loadtxt('var_eps10menos3.16', unpack=True)
 
 #nbc6, e_unif_cl,  e_coul,  e_surf                        = np.loadtxt('fort.18', unpack=True)
 #nbc3, Ecl_ncl,  P_cl_ncl,  mu_cl_n_ncl,   mu_cl_p_ncl             = np.loadtxt('termo_ncl.dat', unpack=True)
